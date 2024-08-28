@@ -233,8 +233,8 @@ int main(int argc, char* argv[]) {
     double total_time = 30; 
     int time_steps = 1000;
     int nuclei_number = std::atoi(argv[2]);
-    int iterations_Iik = 1000;
-    int iterations_Si = 1000;
+    int iterations_Iik = 100000;
+    int iterations_Si = 100000;
 
     // Convert a_ik array to vector of Vector3d
     vector<Vector3d> a_ik_local;
